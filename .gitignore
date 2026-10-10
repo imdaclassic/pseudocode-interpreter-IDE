@@ -1,0 +1,21 @@
+# Dependencies (none are needed to run the site; CodeMirror is pre-bundled in vendor/)
+node_modules/
+
+# Editor / OS clutter
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+
+# Logs and temp files
+*.log
+npm-debug.log*
+*.tmp
+
+# Screenshots dropped in the folder while testing
+Screenshot*.png
+
+# Saved workspaces downloaded while testing
+*.pseudows
