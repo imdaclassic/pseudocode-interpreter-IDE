@@ -502,8 +502,10 @@ button, input { font: inherit; color: inherit; }
 @media (max-width: 760px) {
   .only-narrow { display: inline-grid; }
   .app-name, .file-name { display: none; }
-  .topbar { gap: 6px; padding: 6px 8px; flex-wrap: wrap; }
-  .seg button { padding: 0 7px; }
+  .topbar { gap: 3px; padding: 6px 6px; flex-wrap: wrap; }
+  .seg { margin-right: 3px; }
+  .seg button { padding: 0 6px; }
+  #run { padding: 0 10px; }
   .layout { grid-template-columns: minmax(0, 1fr); position: relative; }
   .sidebar {
     position: absolute; inset: 0 auto 0 0; width: min(280px, 85vw); z-index: 20;
@@ -515,5 +517,6 @@ button, input { font: inherit; color: inherit; }
   .center { grid-template-rows: auto minmax(120px, 1fr) 5px minmax(0, var(--console-h)); }
   #toggle-ref span { display: none; }
   #toggle-ref { padding: 0 6px; }
-  .credit { display: none; }
+  .credit span { display: none; }
+  .credit { padding: 0 6px; }
 }
