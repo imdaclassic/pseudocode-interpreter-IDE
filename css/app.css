@@ -515,5 +515,5 @@ button, input { font: inherit; color: inherit; }
   .center { grid-template-rows: auto minmax(120px, 1fr) 5px minmax(0, var(--console-h)); }
   #toggle-ref span { display: none; }
   #toggle-ref { padding: 0 6px; }
-  .credit span { display: none; }
+  .credit { display: none; }
 }
